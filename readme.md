@@ -32,6 +32,11 @@ Also, I am in no way affiliated with the creation of FSO, and this is not intend
 Enjoy.
 
 ## Screenshots
+**Before**
 ![Before](http://i.imgur.com/76cTk7D.png)
+
+**Using FSO Tools**
 ![After](http://i.imgur.com/RdLp0U5.png)
+
+**Using FSO Tools - Dark Mode**
 ![After - Dark Mode](http://i.imgur.com/FoUqIHH.png)
