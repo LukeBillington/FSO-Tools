@@ -2,6 +2,8 @@
 Recently Full Sail constructed a new LMS v4 to make keeping track of assignments easier.
 I had issues with the new interface in regards to it's usability leading me to create this Chrome extension.
 
+**Screenshots can be seen further below.**
+
 ## What it does
 + **Separates modules from activities.** Groups and colors assignments under modules and adds spacing between modules.
 + **Highlights today's assignments.** All assignments marked as due today will be highlighted.
@@ -28,3 +30,8 @@ but I'm certain there may be issues with the dark mode experience.
 Also, I am in no way affiliated with the creation of FSO, and this is not intended to be a bash on it either. Just a happy Full Sail Student.
 
 Enjoy.
+
+## Screenshots
+![Before](http://i.imgur.com/76cTk7D.png)
+![After](http://i.imgur.com/RdLp0U5.png)
+![After - Dark Mode](http://i.imgur.com/FoUqIHH.png)
