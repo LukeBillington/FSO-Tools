@@ -1,0 +1,268 @@
+.card--primary {
+  background-color: #f2f2f2;
+  margin-top: 2rem;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.cards {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card--primary.highlight {
+  background-color: #FFF8E1;
+}
+
+.cards .card--primary {
+  border-radius: 5px 5px 0 0;
+  box-shadow: none;
+}
+
+.card--primary .card__text-primary,
+.card--primary .card__meta-value {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.card--secondary {
+  background-color: #e9e9e9;
+  border-left: 1px solid #e0e0e0 !important;
+  border-right: 1px solid #e0e0e0 !important;
+}
+
+.card--primary {
+  border-left: 2px solid #00b5af !important;
+}
+.card--secondary {
+  border-left: 2px solid #cc4b00 !important;
+}
+
+.card--secondary .circle-progress__content {
+  color: #cc4b00 !important;
+}
+
+.card--primary .circle-progress--completed {
+  background-color: #00b5af !important;
+}
+
+.card--primary .circle-progress__content {
+  color: #00b5af !important;
+}
+
+.card--primary .circle-progress__bar {
+  stroke: #00b5af;
+}
+
+.card--secondary:last-of-type {
+  border-bottom: 1px solid #e0e0e0 !important;
+  border-radius: 0 0 5px 5px;
+}
+
+.comment-block {
+  padding: 1rem;
+}
+
+body.dark-mode,
+.dark-mode .toolbar,
+.dark-mode .fluid-container-layout {
+  background-color: #000000 !important;
+  color: #EEEEEE !important;
+}
+
+.dark-mode .assignment-footer,
+.dark-mode .exam-detail__footer,
+.dark-mode .fluid-container-layout__topbar,
+.dark-mode .editor-wrapper,
+.dark-mode .topbar,
+.dark-mode .topbar--empty,
+.dark-mode button:not(.primary),
+.dark-mode .card,
+.dark-mode .circle-progress:not(.circle-progress--completed),
+.dark-mode .files__item-icon,
+.dark-mode .code-block,
+.dark-mode .uploader,
+.dark-mode .messaging-card,
+.dark-mode .panel-left,
+.dark-mode .panel-right,
+.dark-mode .panel-scrollable-content,
+.dark-mode .menu {
+  color: #EEEEEE !important;
+  background-color: #212121 !important;
+  border-color: #212121 !important;
+}
+
+.code-block div {
+  background-color: transparent !important;
+}
+
+.dark-mode .code__line-number,
+.dark-mode .progress-bar__container,
+.dark-mode .progress-bar__closed-container,
+.dark-mode .sticky-header,
+.dark-mode .ae-toolbar,
+.dark-mode .ae-toolbar-styles,
+.dark-mode .attachments,
+.dark-mode .messages {
+  background-color: #121212 !important;
+  border-color: transparent !important;
+  color: #999 !important;
+}
+
+.dark-mode p,
+.dark-mode ul,
+.dark-mode li,
+.dark-mode span,
+.dark-mode .help-text,
+.dark-mode .progress-bar__container span,
+.dark-mode .messaging-card__timestamp,
+.dark-mode .messaging-card__content,
+.dark-mode .panel-left__sub-header {
+  color: #999 !important;
+}
+
+.dark-mode .card {
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom: transparent !important;
+}
+
+.dark-mode button:not(.primary).active,
+.dark-mode .panel-links__link:hover,
+.dark-mode .panel-links__link.active {
+  background-color: #424242 !important;
+}
+
+.dark-mode button:hover {
+  background-color: #121212 !important;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode label,
+.dark-mode .panel-left__header {
+  color: #CCCCCC !important;
+}
+
+.dark-mode code,
+.dark-mode .sub,
+.dark-mode .header,
+.dark-mode .account-circle__name,
+.dark-mode .messaging-card__participant-names,
+.dark-mode .messaging-card__title {
+  color: #EEEEEE !important;
+}
+
+.dark-mode .toolbar,
+.dark-mode .tabs,
+.dark-mode .tabs__item:not(.tabs__item--active),
+.dark-mode .assignment__assessment-content,
+.dark-mode .progress-bar__data-row,
+.dark-mode .editor-wrapper,
+.dark-mode .uploader,
+.dark-mode .panel-left__global-links,
+.dark-mode .message-panel .header,
+.dark-mode .message-panel .footer,
+.dark-mode .notification-panel .header,
+.dark-mode .notification-panel .footer,
+.dark-mode .panel-scrollable-content,
+.dark-mode .profile-info,
+.dark-mode .divider {
+  border-color: #616161 !important;
+}
+
+.dark-mode .account-circle:hover {
+  background: none !important;
+}
+
+.dark-mode #Fill-2,
+.dark-mode #Fill-3,
+.dark-mode #Fill-4,
+.dark-mode #Fill-5,
+.dark-mode #Fill-6,
+.dark-mode #Fill-7,
+.dark-mode #Fill-8,
+.dark-mode #Fill-9,
+.dark-mode #Fill-10,
+.dark-mode #Fill-11,
+.dark-mode #Fill-12,
+.dark-mode #Fill-13,
+.dark-mode #Fill-14,
+.dark-mode #Fill-15,
+.dark-mode #Fill-16,
+.dark-mode #Fill-17,
+.dark-mode #Fill-18,
+.dark-mode #Fill-19,
+.dark-mode #Fill-20,
+.dark-mode #Fill-21 {
+  fill: #EEEEEE;
+}
+
+.dark-mode .circle-progress__rail {
+  stroke: #616161 !important;
+}
+
+.dark-mode .cards__group,
+.dark-mode code,
+.dark-mode code:hover,
+.dark-mode .code__line-text {
+  background-color: transparent !important;
+}
+
+.dark-mode .card--primary .card__text-primary,
+.dark-mode .card--primary .card__meta-value,
+.dark-mode .card--secondary .card__text-primary,
+.dark-mode .card--secondary .card__meta-value,
+.dark-mode .panel-links__link {
+  color: #EEEEEE !important;
+}
+
+.dark-mode .badge {
+  background-color: #bbb !important;
+  color: #000 !important;
+}
+
+.dark-mode .badge.red {
+  background-color: red !important;
+  color: #FFF !important;
+}
+
+.dark-mode .badge.yellow {
+  background-color: #fdb910 !important;
+  color: #FFF !important;
+}
+
+.dark-mode .badge.green {
+  background-color: #78a22f !important;
+  color: #FFF !important;
+}
+
+.dark-mode .badge.blue {
+  background-color: #068da8 !important;
+  color: #FFF !important;
+}
+
+.card--primary.highlight {
+  background-color: #FFC400 !important;
+}
+
+.card--secondary.highlight {
+  background-color: #FFAB00 !important;
+}
+
+.dark-mode input,
+.dark-mode .card--primary.highlight .card__text-primary,
+.dark-mode .card--primary.highlight .card__meta-value,
+.dark-mode .card--primary.highlight .card__text-secondary,
+.dark-mode .card--primary.highlight .card__meta-label,
+.dark-mode .card--secondary.highlight .card__text-primary,
+.dark-mode .card--secondary.highlight .card__meta-value,
+.dark-mode .card--secondary.highlight .card__text-secondary,
+.dark-mode .card--secondary.highlight .card__meta-label {
+  color: #000 !important;
+}
