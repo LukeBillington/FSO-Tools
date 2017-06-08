@@ -11,7 +11,11 @@
 }
 
 .card--primary.highlight {
-  background-color: #FFF8E1;
+  background-color: #FFF8E1 !important;
+}
+
+.card--secondary.highlight {
+  background-color: #FFECB3 !important;
 }
 
 .cards .card--primary {

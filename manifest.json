@@ -12,8 +12,15 @@
     "scripts": ["background.js"]
   },
 
+  "icons": {
+    "16": "fst-18.png",
+    "48": "fst-48.png",
+    "128": "fst-128.png"
+  },
+
+
   "browser_action": {
-    "default_icon": "fs.png"
+    "default_icon": "fst-19.png"
   },
 
   "content_scripts": [{
