@@ -28,7 +28,6 @@ function findModules() {
 
   // Unlocked Assignment
   var unlocked = document.querySelectorAll('.circle-progress:not(.circle-progress--completed) i.fa-check');
-  console.log(unlocked.length);
   for (var k = 0; k < unlocked.length; k++) {
     var icon = unlocked[k];
     icon.classList.remove('fa-check');
