@@ -247,11 +247,11 @@ body.dark-mode,
   color: #FFF !important;
 }
 
-.card--primary.highlight {
+.dark-mode .card--primary.highlight {
   background-color: #FFC400 !important;
 }
 
-.card--secondary.highlight {
+.dark-mode .card--secondary.highlight {
   background-color: #FFAB00 !important;
 }
 
