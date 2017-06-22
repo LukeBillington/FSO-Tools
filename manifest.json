@@ -3,7 +3,7 @@
 
   "name": "FSO Tools",
   "description": "This improves Full Sail's FSO 4 by making modules easier to see and adding dark mode support and due assignment highlighting.",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "activeTab"
   ],
